@@ -4,6 +4,8 @@ Static GitHub Pages website for Dr. Ashraf Zainabi.
 
 Target URL: `https://drashrafzainabi.github.io`
 GitHub profile: `https://github.com/drashrafzainabi`
+Full name: `Dr. Mohammad Ashraf Bhat`
+Pen name: `Dr. Ashraf Zainabi`
 
 ## Pages
 
