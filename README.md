@@ -1,6 +1,6 @@
-# Dr. M. Ashraf Bhat Website
+# Dr. Ashraf Zainabi Website
 
-Static GitHub Pages website for Dr. M. Ashraf Bhat.
+Static GitHub Pages website for Dr. Ashraf Zainabi.
 
 Target URL: `https://drashrafzainabi.github.io`
 GitHub profile: `https://github.com/drashrafzainabi`
@@ -9,9 +9,9 @@ GitHub profile: `https://github.com/drashrafzainabi`
 
 - `index.html`: Professional academic profile.
 - `cv.html`: Redesigned, print-friendly CV.
-- `assets/dr-ashraf-bhat-redesigned-cv.pdf`: Redesigned CV PDF exported from the site.
-- `assets/dr-ashraf-bhat-original-cv.pdf`: Original CV source file.
-- `assets/ashraf-bhat-headshot.jpeg`: Headshot used on the site.
+- `assets/dr-ashraf-zainabi-redesigned-cv.pdf`: Redesigned CV PDF exported from the site.
+- `assets/dr-ashraf-zainabi-original-cv.pdf`: Original CV source file.
+- `assets/ashraf-zainabi-headshot.jpeg`: Headshot used on the site.
 
 ## Local Preview
 
