@@ -8,8 +8,8 @@ GitHub profile: `https://github.com/drashrafzainabi`
 ## Pages
 
 - `index.html`: Professional academic profile.
-- `cv.html`: Redesigned, print-friendly CV.
-- `assets/dr-ashraf-zainabi-redesigned-cv.pdf`: Redesigned CV PDF exported from the site.
+- `cv.html`: Professional, print-friendly CV.
+- `assets/dr-ashraf-zainabi-cv.pdf`: CV PDF exported from the site.
 - `assets/dr-ashraf-zainabi-original-cv.pdf`: Original CV source file.
 - `assets/ashraf-zainabi-headshot.jpeg`: Headshot used on the site.
 
