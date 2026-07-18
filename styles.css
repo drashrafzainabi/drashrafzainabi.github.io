@@ -134,44 +134,16 @@ img {
 .hero {
   align-items: center;
   display: grid;
-  gap: 4.25rem;
-  grid-template-columns: minmax(240px, 0.48fr) minmax(0, 1fr);
-  min-height: calc(88vh - 72px);
+  gap: 4rem;
+  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.7fr);
+  min-height: calc(82vh - 72px);
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
 
 .hero h1 {
-  font-size: clamp(3.25rem, 7vw, 6.1rem);
-  max-width: 790px;
-}
-
-.hero-portrait {
-  margin: 0;
-}
-
-.hero-portrait img {
-  aspect-ratio: 4 / 5;
-  background: #fff;
-  border: 10px solid #fff;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  object-fit: cover;
-  object-position: top center;
-  width: min(100%, 340px);
-}
-
-.hero-portrait figcaption {
-  border-left: 3px solid var(--gold);
-  color: var(--muted);
-  display: grid;
-  gap: 0.15rem;
-  margin-top: 1rem;
-  padding-left: 0.85rem;
-}
-
-.hero-portrait figcaption strong {
-  color: var(--ink);
+  font-size: clamp(3.1rem, 6vw, 5.2rem);
+  max-width: 680px;
 }
 
 .eyebrow {
@@ -222,23 +194,6 @@ h3 {
   max-width: 760px;
 }
 
-.identity-line {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  margin: -0.35rem 0 1.1rem;
-}
-
-.identity-line span {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--teal-dark);
-  font-size: 0.9rem;
-  font-weight: 800;
-  padding: 0.42rem 0.7rem;
-}
-
 .hero-actions,
 .contact-actions,
 .cv-toolbar {
@@ -276,24 +231,41 @@ h3 {
   color: var(--teal-dark);
 }
 
-.portrait-wrap {
-  margin: 0;
-}
-
-.portrait {
-  aspect-ratio: 3 / 4;
-  border: 10px solid #fff;
+.mission-panel {
+  background: #fff;
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  object-fit: cover;
-  width: min(100%, 360px);
+  padding: 2rem;
 }
 
-.portrait-wrap figcaption {
-  color: var(--muted);
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  max-width: 360px;
+.mission-panel h2 {
+  font-size: clamp(1.75rem, 3vw, 2.7rem);
+  margin-bottom: 1rem;
+}
+
+.mission-panel p:last-child {
+  color: #344540;
+  margin-bottom: 0;
+}
+
+.focus-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-top: 3.5rem;
+}
+
+.focus-grid article {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.focus-grid h2 {
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  margin-bottom: 0.8rem;
 }
 
 .metrics {
@@ -451,7 +423,7 @@ h3 {
   border-bottom: 4px solid var(--teal);
   display: grid;
   gap: 2rem;
-  grid-template-columns: minmax(0, 1fr) 130px;
+  grid-template-columns: minmax(0, 1fr);
   padding-bottom: 1.5rem;
 }
 
@@ -468,12 +440,6 @@ h3 {
 .cv-pen-name {
   color: var(--teal-dark) !important;
   font-weight: 800;
-}
-
-.cv-header img {
-  aspect-ratio: 3 / 4;
-  border-radius: var(--radius);
-  object-fit: cover;
 }
 
 .cv-summary {
@@ -575,7 +541,8 @@ h3 {
   .split,
   .contact-band,
   .feature-grid,
-  .two-column {
+  .two-column,
+  .focus-grid {
     grid-template-columns: 1fr;
   }
 
@@ -590,10 +557,6 @@ h3 {
     max-width: 100%;
   }
 
-  .hero-portrait img {
-    width: min(100%, 280px);
-  }
-
   .metrics,
   .timeline,
   .publication-list {
@@ -606,10 +569,6 @@ h3 {
 
   .cv-header {
     grid-template-columns: 1fr;
-  }
-
-  .cv-header img {
-    max-width: 140px;
   }
 }
 
