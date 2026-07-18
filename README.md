@@ -2,6 +2,9 @@
 
 Static GitHub Pages website for Dr. M. Ashraf Bhat.
 
+Target URL: `https://drashrafzainabi.github.io`
+GitHub profile: `https://github.com/drashrafzainabi`
+
 ## Pages
 
 - `index.html`: Professional academic profile.
