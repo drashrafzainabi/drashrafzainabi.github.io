@@ -132,18 +132,19 @@ img {
 }
 
 .hero {
-  align-items: center;
+  align-items: start;
   display: grid;
-  gap: 4rem;
-  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.7fr);
-  min-height: calc(82vh - 72px);
-  padding-bottom: 5rem;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.55fr);
+  min-height: auto;
+  padding-bottom: 4.5rem;
   padding-top: 5rem;
 }
 
 .hero h1 {
-  font-size: clamp(3.1rem, 6vw, 5.2rem);
-  max-width: 680px;
+  font-size: clamp(3rem, 5vw, 4.75rem);
+  max-width: 620px;
+  overflow-wrap: normal;
 }
 
 .eyebrow {
@@ -236,6 +237,7 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  margin-top: 2.9rem;
   padding: 2rem;
 }
 
@@ -555,6 +557,10 @@ h3 {
   .hero h1 {
     font-size: 3.4rem;
     max-width: 100%;
+  }
+
+  .mission-panel {
+    margin-top: 0;
   }
 
   .metrics,
